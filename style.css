@@ -1,0 +1,17 @@
+body {
+    background-image: url("/img/bg.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+}
+
+.container {
+    margin: 1.5em 3vw;
+}
