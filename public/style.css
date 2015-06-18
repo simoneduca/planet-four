@@ -1,9 +1,10 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic');
+@import url('http://fonts.googleapis.com/css?family=Montserrat&text=ZOONIVERSE');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+html {}
+
 body {
-    background-image: url("/img/bg.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font: 400 15px/1.5 "Open Sans", "Gill Sans", Arial, sans-serif;
     color: #fff;
 }
 
@@ -12,6 +13,59 @@ img {
     width: 400px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
 .container {
     margin: 1.5em 3vw;
+}
+
+.header {
+    border-bottom: 1px solid #ddd;
+}
+
+.project-background {
+    background-image: url("/img/bg.jpeg");
+    background-position: 50% 40%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.project-background:after {
+    background: -webkit-radial-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8));
+    background: -moz-radial-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8));
+    background: -o-radial-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8));
+    background: -ms-radial-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8));
+    background: radial-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8));
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#logo {
+    height: 4em;
+    vertical-align: middle;
+    width: 6em;
 }
