@@ -1,2 +1,2 @@
-# planet-four
-Custom additions to panoptes-based project Planet 4.
+# planetfour-terrains-guide
+Spotter's guide for the Planet 4 project.
