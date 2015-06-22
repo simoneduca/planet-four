@@ -1,26 +1,26 @@
 {
-  "name": "planetfour-terrains-guide",
-  "version": "0.0.1",
-  "description": "Spotter's guide for the Planet 4 project",
-  "main": "public/index.html",
-  "scripts": {
-    "deploy": "publisssh ./public [add target]"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zooniverse/planetfour-terrains-guide.git"
-  },
-  "author": {
-    "name": "Simone Duca",
-    "email": "simone@zooniverse.org"
-  },
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/zooniverse/planetfour-terrains-guide/issues"
-  },
-  "homepage": "https://github.com/zooniverse/planetfour-terrains-guide",
-  "dependencies": {
-    "publisssh": "^1.0.0-beta"
-  },
-  "private": true
+    "name": "planetfour-terrains-guide",
+    "version": "0.0.1",
+    "description": "Spotter's guide for the Planet 4 project",
+    "main": "public/index.html",
+    "scripts": {
+        "deploy": "publisssh ./public zooniverse-static/terrains-guide.planetfour.org/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zooniverse/planetfour-terrains-guide.git"
+    },
+    "author": {
+        "name": "Simone Duca",
+        "email": "simone@zooniverse.org"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/zooniverse/planetfour-terrains-guide/issues"
+    },
+    "homepage": "https://github.com/zooniverse/planetfour-terrains-guide",
+    "dependencies": {
+        "publisssh": "^1.0.0-beta"
+    },
+    "private": true
 }
