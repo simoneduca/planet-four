@@ -1,8 +1,4 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic');
-@import url('http://fonts.googleapis.com/css?family=Montserrat&text=ZOONIVERSE');
-@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
-html {}
-
 body {
     font: 400 15px/1.5 "Open Sans", "Gill Sans", Arial, sans-serif;
     color: #fff;
@@ -32,10 +28,10 @@ h2 {
 
 .header {
     border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
 }
 
 .project-background {
-    background-image: url("/img/bg.jpeg");
     background-position: 50% 40%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,7 +42,7 @@ h2 {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: -1;
+    z-index: -1
 }
 
 .project-background:after {
@@ -61,11 +57,12 @@ h2 {
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: -1;
 }
 
 #logo {
     height: 4em;
     vertical-align: middle;
     width: 6em;
+    webkit-border-radius: 50%;
+    border-radius: 50%;
 }
