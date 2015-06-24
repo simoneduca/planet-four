@@ -1,5 +1,6 @@
-# planetfour-terrains-guide
-Spotter's guide for the Planet 4 project.
+# Planet Four Spotter's Guide
+This is a stand alone static page to guide Planet Four users.
+
 
 ## Deploying
 
